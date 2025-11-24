@@ -287,13 +287,13 @@ export default function TreeHouseSite() {
              <>
                 {/* Menu text outside circle - left side */}
                 {hoverCircle && (
-                    <span className="absolute left-[60%] top-[30%] text-gray text-xs font-medium whitespace-nowrap rotate-90">
+                    <span className="absolute left-[60%] top-[10%] text-gray text-xs font-medium whitespace-nowrap rotate-90">
                         menu
                     </span>
                 )}
                 {/* Menu text outside circle - right side */}
                 {hoverCircle && (
-                    <span className="absolute right-[60%] top-[70%] text-white text-xs font-medium whitespace-nowrap rotate-90">
+                    <span className="absolute right-[60%] top-[90%] text-white text-xs font-medium whitespace-nowrap rotate-90">
                         menu
                     </span>
                 )}
