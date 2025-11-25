@@ -5,14 +5,14 @@ import { X, ArrowLeft } from 'lucide-react';
 
 // --- MOCK DATA ---
 const PORTFOLIO_IMAGES = [
-  { id: 1, color: 'bg-indigo-300', title: 'Projeto Alpha' },
-  { id: 2, color: 'bg-blue-300', title: 'Residência Beta' },
-  { id: 3, color: 'bg-sky-200', title: 'Edifício Gama' },
-  { id: 4, color: 'bg-indigo-400', title: 'Interior Delta' },
-  { id: 5, color: 'bg-blue-400', title: 'Comercial Epsilon' },
-  { id: 6, color: 'bg-sky-300', title: 'Zeta Design' },
-  { id: 7, color: 'bg-indigo-200', title: 'Theta Concept' },
-  { id: 8, color: 'bg-blue-200', title: 'Iota Living' },
+  { id: 1, image: '/portfolio/projeto01.jpg', title: 'Warehouse' },
+  { id: 2, image: '/portfolio/projeto02.jpg', title: 'Bedroom' },
+  { id: 3, image: '/portfolio/projeto03.jpg', title: 'Tucunaré' },
+  { id: 4, image: '/portfolio/projeto04.jpg', title: 'Black Building' },
+  { id: 5, image: '/portfolio/projeto05.jpg', title: 'Living room' },
+  { id: 6, image: '/portfolio/projeto06.jpg', title: 'TH Speaker' },
+  { id: 7, image: '/portfolio/projeto07.jpg', title: 'Bathroom View' },
+  { id: 8, image: '/portfolio/projeto08.jpg', title: 'Kitchen' },
 ];
 
 const SOCIAL_LINKS = [
