@@ -5,14 +5,14 @@ import { X, ArrowLeft } from 'lucide-react';
 
 // --- MOCK DATA ---
 const PORTFOLIO_IMAGES = [
-  { id: 1, image: '/portfolio/projeto01.jpg', title: 'Warehouse' },
-  { id: 2, image: '/portfolio/projeto02.jpg', title: 'Bedroom' },
-  { id: 3, image: '/portfolio/projeto03.jpg', title: 'Tucunaré' },
-  { id: 4, image: '/portfolio/projeto04.jpg', title: 'Black Building' },
-  { id: 5, image: '/portfolio/projeto05.jpg', title: 'Living room' },
-  { id: 6, image: '/portfolio/projeto06.jpg', title: 'TH Speaker' },
-  { id: 7, image: '/portfolio/projeto07.jpg', title: 'Bathroom View' },
-  { id: 8, image: '/portfolio/projeto08.jpg', title: 'Kitchen' },
+  { id: 1, image: '/portfolio/project1.jpg', title: 'Warehouse' },
+  { id: 2, image: '/portfolio/project2.jpg', title: 'Bedroom' },
+  { id: 3, image: '/portfolio/project3.jpg', title: 'Tucunaré' },
+  { id: 4, image: '/portfolio/project4.jpg', title: 'Black Building' },
+  { id: 5, image: '/portfolio/project5.jpg', title: 'Living room' },
+  { id: 6, image: '/portfolio/project6.jpg', title: 'TH Speaker' },
+  { id: 7, image: '/portfolio/project7.jpg', title: 'Bathroom View' },
+  { id: 8, image: '/portfolio/project8.jpg', title: 'Kitchen' },
 ];
 
 const SOCIAL_LINKS = [
