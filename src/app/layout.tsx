@@ -19,8 +19,9 @@ export const metadata: Metadata = {
   keywords: ["TreeHouse", "Visual Persuasion", "Architecture", "Interior Design", "Art", "Design", "Creative", "Portfolio"],
   authors: [{ name: "TreeHouse" }],
   icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
-  },
+  icon: "/favicon.png",
+  apple: "/favicon.png",
+},
   openGraph: {
     title: "TreeHouse - Visual Persuasion & Art",
     description: "We blend design, storytelling, and technology to create visuals that resonate and inspire.",
