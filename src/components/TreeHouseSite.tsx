@@ -245,7 +245,7 @@ export default function TreeHouseSite() {
 
                  {/* CONTACT CONTENT (Full View) */}
                  <div className={`absolute w-full h-full flex flex-col items-center justify-center transition-opacity duration-500 ${view === 'contact' ? 'opacity-100 delay-500' : 'opacity-0 pointer-events-none'}`}>
-                    <div className="absolute top-1/2 left-110 md:left-20 -translate-y-1/2 text-2xl italic font-serif text-zinc-600">
+                    <div className="absolute top-1/2 left-510 md:left-20 -translate-y-1/2 text-2xl italic font-serif text-zinc-600">
                         <span className="relative">
                             contact
                             <div className="absolute top-full left-0 w-32 h-0.5 bg-zinc-800 transform -translate-y-1"></div>
