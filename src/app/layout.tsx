@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TreeHouse - Visual Persuasion & Art",
+  title: "TreeHouse Studio",
   description: "We blend design, storytelling, and technology to create visuals that resonate and inspire. Architecture, interior design, and visual persuasion.",
   keywords: ["TreeHouse", "Visual Persuasion", "Architecture", "Interior Design", "Art", "Design", "Creative", "Portfolio"],
   authors: [{ name: "TreeHouse" }],
@@ -23,15 +23,15 @@ export const metadata: Metadata = {
   apple: "/favicon.png",
 },
   openGraph: {
-    title: "TreeHouse - Visual Persuasion & Art",
+    title: "TreeHouse Studio",
     description: "We blend design, storytelling, and technology to create visuals that resonate and inspire.",
-    url: "https://chat.z.ai",
+    url: "https://www.treehousestudio.com.br/",
     siteName: "TreeHouse",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "TreeHouse - Visual Persuasion & Art",
+    title: "TreeHouse Studio",
     description: "We blend design, storytelling, and technology to create visuals that resonate and inspire.",
   },
 };
