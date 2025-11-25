@@ -349,26 +349,14 @@ export default function TreeHouseSite() {
             className="fixed inset-0 z-[100] bg-blue-600/90 backdrop-blur-sm flex items-center justify-center p-4 md:p-10 transition-opacity duration-300 animate-in fade-in"
             onClick={() => setSelectedImage(null)}
         >
-            div className="relative w-full max-w-5xl aspect-video bg-white rounded-2xl shadow-2xl overflow-hidden flex items-center justify-center" onClick={(e) => e.stopPropagation()}>
+            <div className="relative w-full max-w-5xl aspect-video bg-white rounded-2xl shadow-2xl overflow-hidden flex items-center justify-center" onClick={(e) => e.stopPropagation()}>
                 <button 
                     onClick={() => setSelectedImage(null)}
                     className="absolute top-4 right-4 p-2 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors text-zinc-800"
                 >
                     <X size={24} />
                 </button>
-                {selectedImage.image ? (
-                    <img 
-                        src={selectedImage.image} 
-                        alt={selectedImage.title}
-                        className="w-full h-full object-contain"
-                        onError={(e) => {
-                            // Fallback to color if image fails to load
-                            e.currentTarget.style.display = 'none';
-                            e.currentTarget.nextElementSibling.style.display = 'flex';
-                        }}
-                    />
-                ) : null}
-                <div className={`w-full h-full ${selectedImage.color} flex items-center justify-center ${selectedImage.image ? 'hidden' : ''}`}>
+                <div className={`w-full h-full ${selectedImage.color} flex items-center justify-center`}>
                     <h2 className="text-4xl md:text-6xl text-white font-serif italic">{selectedImage.title}</h2>
                 </div>
             </div>
